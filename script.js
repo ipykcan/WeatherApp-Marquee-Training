@@ -9,7 +9,7 @@ let seaLevelDisplay = document.getElementById("seaLevelInfo");
 btn.addEventListener("click", () => {
     let city = cityInput.value;
 
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=53cf92b73fb02d94ca60985477592309`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid`;
 
     console.log(city);
     console.log(url);
